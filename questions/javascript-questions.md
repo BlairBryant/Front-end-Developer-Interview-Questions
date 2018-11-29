@@ -1,7 +1,9 @@
 # JS Questions:
 
 * Explain event delegation
+Event delegation is the concept of not adding event listeners to several sibling elements within a common parent element, instead add the event listener on the parent, and use event.target to determine which child element was clicked, then run the desired function using the child element clicked on as an argument.
 * Explain how `this` works in JavaScript
+this refers to the object whose scope the 
 * Explain how prototypal inheritance works
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
